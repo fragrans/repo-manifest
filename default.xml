@@ -4,5 +4,5 @@
     <default revision="main"
         remote="yocto"
         sync-j="4" />
-    <project name="poky" path="sources/poky" remote="yocto" />
+    <project name="poky" path="sources/poky" remote="yocto" revision="main"/>
 </manifest>
