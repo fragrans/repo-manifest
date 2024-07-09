@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="yocto" fetch="https://git.yoctoproject.org/poky_ww" />
-    <default revision="master"
+    <remote name="yocto" fetch="git://git.yoctoproject.org" />
+    <default revision="scarthgap"
         remote="yocto"
         sync-j="4" />
-    <project name="poky" path="sources/poky" remote="yocto" revision="master" />
+    <project name="poky" path="sources/poky" remote="yocto" revision="scarthgap" />
 </manifest>
